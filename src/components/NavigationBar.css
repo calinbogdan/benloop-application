@@ -2,3 +2,21 @@
     background-color: #f64248;
     color: white;
 }
+
+:local(.navcontainer) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+:local(.navbrand) {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+:local(.linkscontainer) {
+    display: flex;
+    flex-direction: row;
+}

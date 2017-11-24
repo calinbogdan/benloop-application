@@ -9,18 +9,20 @@ export default class NavigationBar extends React.Component {
         return (
             <div className={styles.navbar}>
                 <Container>
-                    <div className="brand">
-                        CALIN BOGDAN
-                    </div>
-                    {/* links */}
-                    <div>
-                        <NavigationItem route="/contact">
-                            JOB HISTORY & EDUCATION
-                        </NavigationItem>
-                        <NavigationItem route="/contact">
-                            CONTACT
-                        </NavigationItem>
-                    </div>              
+                    <div className={styles.navcontainer}>
+                        <div className={styles.navbrand}>
+                            CALIN BOGDAN
+                        </div>
+                        {/* links */}
+                        <div className={styles.linkscontainer}>
+                            <NavigationItem route="/contact">
+                                JOB HISTORY & EDUCATION
+                            </NavigationItem>
+                            <NavigationItem route="/contact">
+                                CONTACT
+                            </NavigationItem>
+                        </div>  
+                    </div>            
                 </Container>
             </div>
         );
