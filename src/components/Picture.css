@@ -1,0 +1,8 @@
+:local(.picture) {
+    border-radius: 50%;
+    height: 150px;
+    left: 50%;
+    position: relative;
+    margin-right: -50%;
+    transform: translate(-50%, 0)
+}

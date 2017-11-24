@@ -14,6 +14,8 @@
 :local(.navbrand) {
     font-size: 1.75rem;
     font-weight: 700;
+    color: white;
+    text-decoration: none
 }
 
 :local(.linkscontainer) {

@@ -10,9 +10,9 @@ export default class NavigationBar extends React.Component {
             <div className={styles.navbar}>
                 <Container>
                     <div className={styles.navcontainer}>
-                        <div className={styles.navbrand}>
+                        <NavLink to="/" className={styles.navbrand}>
                             CALIN BOGDAN
-                        </div>
+                        </NavLink>
                         {/* links */}
                         <div className={styles.linkscontainer}>
                             <NavigationItem route="/contact">
