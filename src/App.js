@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route, NavLink } from 'react-router-dom';
 
 import Container from './components/Container';
 
@@ -21,11 +21,13 @@ class App extends Component {
               </div>
               {/* links */}
               <div>
-                JOB HISTORY
-              </div>
-              <div>
-                CONTACT
-              </div>
+                <NavLink to="/contact">
+                  JOB HISTORY & EDUCATION
+                </NavLink>
+                <NavLink to="/contact">
+                  CONTACT
+                </NavLink>
+              </div>              
             </Container>
           </div>
           <Switch>
