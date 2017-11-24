@@ -1,8 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import Container from './Container';
+import NavigationItem from './NavigationItem';
 
-export default class Navbar extends React.Component {
+export default class NavigationBar extends React.Component {
     render() {
         return (
             <div className="navbar">
@@ -12,11 +13,11 @@ export default class Navbar extends React.Component {
                 </div>
                 {/* links */}
                 <div>
+                    <NavigationItem route="/contact">
+                        JOB HISTORY & EDUCATION
+                    </NavigationItem>
                     <NavLink to="/contact">
-                    JOB HISTORY & EDUCATION
-                    </NavLink>
-                    <NavLink to="/contact">
-                    CONTACT
+                        CONTACT
                     </NavLink>
                 </div>              
                 </Container>
