@@ -1,0 +1,10 @@
+:local(.navlink) {
+    font-weight: 800;
+    color: white;
+    text-decoration: none;
+    padding: 0 10px
+}
+
+:local(.navlink:hover) {
+    color: #2c3e50;
+}
