@@ -3,6 +3,9 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import Container from './components/Container';
 
+import Main from './components/pages/Main';
+import Contact from './components/pages/Contact';
+
 class App extends Component {
   render() {
     return (
